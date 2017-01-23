@@ -5,10 +5,9 @@ Rails.application.routes.draw do
 
   # visits_by_day_home
   #  GET '/home/visits_by_day' => 'homes#visits_by_day'
-  # 
-  # get 'home/visits_by_day' => 'homes#visits_by_day', as: "visits_by_day_home"
+  #
+  get 'home/visits_by_day' => 'homes#visits_by_day', as: "visits_by_day_home"
 
-  # post 'home/visits_by_day' => 'homes#visits_by_day'
 
 end
 
